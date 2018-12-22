@@ -8,7 +8,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+button {
+  height: auto;
+  font-size: 14px;
+  background: #03a9f4;
+  border: navajowhite;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 20px;
 }
