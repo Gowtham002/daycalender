@@ -31,15 +31,15 @@ class EventForm extends React.Component {
         <ul>
           <li>
             <label>Event Name</label>
-            <input type="text" value={this.state.label} onChange={this.onValueChange} name="label"/>
+            <input type="text" value={this.state.label} onChange={this.onValueChange} name="label" placeholder="name"/>
           </li>
           <li>
-            <label>Start Time</label>
-            <MaskedInput mask={[/[0-9]/,/[0-9]/,':',/[0-5]/, /[0-9]/]} value={this.state.start} onChange={this.onValueChange} name="start"/>
+            <label>Start Time (24H)</label>
+            <MaskedInput mask={[/[0-9]/,/[0-9]/,':',/[0-5]/, /[0-9]/]} value={this.state.start} onChange={this.onValueChange} name="start" placeholder="HH:mm"/>
           </li>
           <li>
-            <label>End Time</label>
-            <MaskedInput mask={[/[0-9]/,/[0-9]/,':',/[0-5]/, /[0-9]/]} value={this.state.end} onChange={this.onValueChange} name="end"/>
+            <label>End Time (24H)</label>
+            <MaskedInput mask={[/[0-9]/,/[0-9]/,':',/[0-5]/, /[0-9]/]} value={this.state.end} onChange={this.onValueChange} name="end" placeholder="HH:mm"/>
           </li>
         </ul>
         <div className="submit">

@@ -15,7 +15,11 @@
 }
 .event-form ul li label {
   margin-right: 32px;
-  width: 88px;
+  width: 150px;
+}
+.event-form ul li input {
+  padding: 4px;
+  font-size: 14px;
 }
 .event-form .submit {
   margin-top: 16px;
